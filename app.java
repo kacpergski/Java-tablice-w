@@ -17,8 +17,7 @@ class app {
 	System.out.println(array [2][0] + " " + array [2][1] + " " + array [2][2]);
 	
 	
-	
-		
+			
 	System.out.println("---------ZADANIE 2-----------------");
 	System.out.println();
 	System.out.println();
