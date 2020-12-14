@@ -46,7 +46,45 @@ class app {
 	System.out.println("Price: " + shoes[2][0] + shoes[2][1] + shoes[2][2] + shoes[2][3] + shoes[2][4]);
 	System.out.println("--------------------------");
 		
-		
+	//ZADANIE3
+	char[][] cross = new char [3][];
+	cross[0] = new char[4];
+	cross[1] = new char[3];
+	cross[2] = new char[6];
+	
+	// get 
+	cross[0][0] = 'w';
+	cross[0][1] = 'i';
+	cross[0][2] = 'l';
+	cross[0][3] = 'k';
+	
+	//get 
+	cross[1][0] = 'k';
+	cross[1][1] = 'o';
+	cross[1][2] = 't';
+	
+	// get 
+	cross[2][0] = 380;
+	cross[2][1] = 'y';
+	cross[2][2] = 'r';
+	cross[2][3] = 'a';
+	cross[2][4] = 'f';
+	cross[2][5] = 'a';
+			
+	System.out.println("---------ZADANIE 3-----------------");
+	System.out.println("--------------------------");
+	System.out.println("3 litera 2 hasła: " + cross[1][2]);
+	System.out.println("1 litera 1 hasła: " + cross[2][0]);
+	cross[2][5] ='y';
+	System.out.println(" Długoś2 hasła: " + cross[1].length);
+	
+	System.out.println("--------------------------");	
+	System.out.println(""+cross[0][0] + cross[0][1] + cross[0][2] + cross[0][3]);
+	System.out.println(""+cross[1][0] + cross[1][1] + cross[1][2]);
+	System.out.println(""+cross[2][0] + cross[2][1] + cross[2][2] + cross[2][3] + cross[2][4]+ cross[2][5]);
+	System.out.println("--------------------------");	
+	
+	//System.out.println("--------------------------");	
 		
 		
 }
